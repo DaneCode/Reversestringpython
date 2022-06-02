@@ -1,0 +1,18 @@
+Reversing a string in Python
+name = "Hello World"
+#Slice string and reverse. Slice notation [start:stop:step].
+#In this case we are dropping the start and stop since we want the whole string.
+#We set the step to -1 so that it will step from right to left by one character
+#through the whole string
+print(name[::-1])
+
+#Result dlroW olleH
+
+
+#How to create a reverse string function
+
+def reverse_string(x):
+    return x[::-1]
+
+x = reverse_string("Hello Small World")
+print(x)
